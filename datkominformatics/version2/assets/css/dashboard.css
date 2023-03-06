@@ -1,0 +1,50 @@
+@font-face
+{ 
+  font-family: 'Gilroy_Extrabold';
+  src: url('../fonts/Gilroy-ExtraBold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face
+{ 
+  font-family: 'Gilroy_Light';
+  src: url('../fonts/Gilroy-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Gilroy_Extrabold';
+}
+p, a, span, em, li, label, option, select, input, textarea, table, strong{
+  font-family: 'Gilroy_Light' !important;
+}
+html{
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* ################################################################################################# */
+
+.sidebar-nav .nav-link span{
+  padding-left: 10px !important;
+}
+.contact-btn{
+  font-family: 'Gilroy_Light' !important;
+  border: none;
+  padding: 3vh;
+  
+}
+#contact-submit{
+  background-color: #087CEE;
+  color: #fff;
+}
+.img-thumbnail-dream{
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 5px;
+}
+
+
+/* ################################################################################################ */

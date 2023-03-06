@@ -1,0 +1,123 @@
+@media only screen and (max-width: 575px){
+#CTA p{
+    font-size: 35px;
+}
+.footp{
+    margin-top: 10px;
+    text-align: center;
+}
+p{
+    font-size: 15.5px;
+}
+.discutons{
+    text-align: center;
+}
+.bordr{
+    display: none;
+}
+.button_container.active .top, .button_container.active .bottom{
+    background: #087CEE;
+}
+.page-link{
+    text-align: justify;
+}
+#droite_nav{
+    display: none;
+}
+.wht_up{
+    display: block !important;
+}
+/*HOMEPAGE*/
+
+.overlay{
+    top: 0;
+    margin-top: -18px;
+}
+.overlay-2{
+    display: none;
+}
+.social-network-block{
+    margin-top: 15vh !important;
+}
+.prc{
+    font-size: calc(18px + 30 * (100vw - 320px) / 1080);
+}
+.pub_first, #titre{
+    font-size: 50px;
+    margin-top: 5vh;
+}
+.btn-adv{
+    margin-top: 0.2rem !important;
+}
+#srvc_pg, .adv-center, .droite_text, .hmf{
+    text-align: center !important;
+}
+#branding-background, #design-background, #marketing-background, #web-background{
+    height: 280px !important;
+    margin-top: 10% !important;
+}
+/*Nos services*/
+#WWD{
+    font-size: 50px;
+    margin-top: 30vh;
+}
+.minimalist{
+    margin-top: 5vh;
+}
+.minimalist img{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.bordr{
+    margin-bottom: 10vh !important;
+}
+ul{
+    padding: 0 !important;
+    text-align: justify !important;
+}
+.services_img{
+    width: 10% !important;
+    margin-right: .2rem;
+    margin-bottom: 0% !important;
+}
+/*Services details*/
+#contenu, #info-titre{
+    height: auto !important;
+}
+/*contact*/
+.ticker-wrap{
+    margin-top: 23% !important;
+}
+.discutons-contact{
+    font-size: 20px;
+}
+.let-start{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.contact_input{
+
+    flex-basis: initial !important;
+    flex-grow: 1 !important;
+    max-width: 100% !important;
+    margin-top: 7vh !important;
+
+}
+/*Blog*/
+.toopiic{
+    display: block;
+    margin: 10px;
+}
+#blog-top{
+    margin-top: 23% !important;
+}
+.blog_ttitre{
+    margin-top: 15vh;
+}
+/**/
+#bottom_div{
+    margin-top: 20%;
+}
+
+}
+

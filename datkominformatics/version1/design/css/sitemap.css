@@ -1,0 +1,21 @@
+#head-map{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 100%;
+    width: 100%;
+    min-height: 50vh;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #087CEE;
+    color: #fff;
+  }
+#titre{
+  margin-top: 5%;
+  font-family: 'Gilroy_Extrabold';
+}
+/*Dark*/
+body.dark #head-map{
+  background-color: #FFF;
+  color: #087CEE;
+}

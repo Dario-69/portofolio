@@ -1,0 +1,120 @@
+/*Mode definition Premium*/
+
+body, body.light{
+    background-color: #FFF !important;
+    transition: all 400ms ease;
+}
+body.dark{
+    background-color: #087CEE !important;
+    color: #FFF;
+    transition: all 400ms ease;
+}
+/*Mode definition Premium end*/
+
+/*Les boutons de transformation */
+
+.clr{
+    transition: 0s !important;
+    width: calc(30px + 5 * (100vw - 320px) / 1080);
+    height: calc(30px + 5 * (100vw - 320px) / 1080);
+    display: inline-block;
+    margin: 0 6px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+#light-toggle-footer{
+    background-color: white;
+    border: 1px solid #087CEE;
+    width: 22.5px;
+    height: 22.5px;
+}
+#dark-toggle-footer{
+    background-color: #087CEE;
+    border: 1px solid #fff;
+    height: 22.5px;
+    width: 22.5px;
+}
+
+/*Les boutons de transformation FIN*/
+
+/*Dark Mode Style - Les éléments commun*/
+
+body.dark hr{
+    background: #fff;
+}
+
+body.dark .button_container span{
+    background: #087CEE;
+    transition: all 400ms ease;
+}
+
+
+body.dark .brdr{
+    background-color: #ffd600;
+    transition: all 400ms ease;
+}
+
+body.dark a{
+    color: #fff !important;
+    transition: all 400ms ease;
+}
+body.dark a:hover{
+    color: #ffd600 !important;
+    transition: all 400ms ease;
+}
+
+body.dark .inpuut{
+    border-bottom: 1px solid #FFF !important;
+    transition: all 400ms ease;
+}
+
+body.dark .inpuut:focus{
+    border: 1px solid #fff !important;
+}
+
+body.dark input::placeholder{
+    color: #fff !important;
+}
+
+body.dark .brand-title{
+    color: #087CEE !important;
+}
+
+body.dark .learn_btn{
+    border: 1px solid #FFF !important;
+}
+body.dark .learn_btn:hover{
+    background-color: #FFF !important;
+    color: #087CEE !important;
+}
+body.dark .Join{
+    color: #087CEE !important;
+    background-color: #FFF !important;
+  }
+
+/*Dark mode CTA & Footer*/
+
+body.dark #CTA{
+    background-color: #fff;
+    transition: all 400ms ease;
+}
+body.dark #CTA p, body.dark #CTA a{
+    color: #087cee !important;
+    transition: all 400ms ease;
+}
+body.dark #CTA a:hover{
+    /* color: #ffd600 !important; */
+    transition: all 400ms ease;
+}
+body.dark footer p, body.dark footer span, body.dark footer a{
+    color: #fff;
+    transition: all 400ms ease;
+}
+body.dark footer .discutons a{
+    color: #fff;
+    transition: all 400ms ease;
+}
+body.dark footer .discutons a:hover, body.dark footer a:hover{
+    color: #ffd600 !important;
+    transition: all 400ms ease;
+}

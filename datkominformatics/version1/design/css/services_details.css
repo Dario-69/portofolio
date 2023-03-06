@@ -1,0 +1,23 @@
+#head-services{
+    background-color: #087CEE;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #FFF !important;
+}
+#contenu{
+    height: 83vh;
+}
+#info-titre{
+    background-color: #FFD600 !important;
+    height: 83vh;
+}
+#info-titre h1{
+
+    line-height: 75vh;
+    font-family: 'Gilroy_Extrabold';
+
+}
+#info-info{
+    padding: 50px;
+    text-align: justify;
+}

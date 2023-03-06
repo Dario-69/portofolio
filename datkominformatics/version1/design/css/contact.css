@@ -1,0 +1,96 @@
+@-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  .ticker-wrap {
+    margin-top: 3%;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    padding-left: 100%;
+    box-sizing: content-box;
+  }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    height: 100%;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 50s;
+    animation-duration: 50s;
+  }
+  .ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 12rem;
+    color: #FFF;
+    font-family: 'Gilroy_Extrabold';
+  }
+
+.mini_span{
+  font-size: 15px;
+  color: #b7b7b7;
+  letter-spacing: .03em;
+}
+label{
+  color: #b7b7b7;
+}
+body.dark .mini_span, body.dark label{
+  color: #FFF;
+}
+label span{
+  color: #ffd600;
+}
+.minimalist{
+  margin-top: 18vh;
+  margin-bottom: 18vh;
+}
+.discutons-contact {
+  font-family: 'Montserrat_Bold';
+  font-size: 28px;
+  font-weight: bolder;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #087CEE;
+}
+.discutons-contact:hover{
+  color: #ffd600;
+  transition: all 400ms ease;
+}
+#send{
+  color: #FFF;
+  background-color: #087CEE;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Gilroy_Extrabold';
+  /* border-radius: 45px; */
+}
+body.dark #send{
+  color: #087CEE;
+  background-color: #FFF;
+}

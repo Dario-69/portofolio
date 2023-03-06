@@ -1,0 +1,492 @@
+/* ##########################"HOMEPAGE################# */
+.responsive-show{
+    display: none !important;
+}
+#homepage-header-cta{
+    height: 100vh;
+}
+#homepage-header-cta h1{
+    font-size: 65px;
+    color: #087CEE;
+    margin-top: 25vh;
+}
+#homepage-header-cta a, .prise-rdv{
+    font-size: 25px;
+    color: #087CEE;
+}
+#homepage-header-cta a:hover, .prise-rdv:hover{
+    color: #fec401;
+}
+.homepage-les-services-item{
+    font-weight: 500;
+    display: block;
+    line-height: 1.1;
+    font-size: 10vw;
+    white-space: nowrap;
+    color: #087CEE;
+}
+.homepage-les-services-item:first-child {
+    margin-left: 6.25%;
+}
+.homepage-les-services-item:nth-child(2) {
+    margin-left: 25%;
+}
+.homepage-les-services-item:nth-child(3) {
+    margin-left: 12.5%;
+}
+.homepage-les-services-item:nth-child(4) {
+    margin-left: 35%;
+}
+.homepage-services-card{
+    width: 100%;
+    height: 84vh;
+    padding: 3vh 3vh;
+    border: 1px solid #606470;
+}
+.homepage-services-card h4{
+
+    color: #fec401;
+    
+}
+.homepage-services-card p, .homepage-valeurs p{
+    font-size: 15px;
+}
+.homepage-services-label span{
+    color: #087CEE;
+}
+.slash-services{
+    color: #1f041a !important;
+}
+.homepage-valeurs-heart, .homepage-valeurs h3{
+    color: #087CEE;
+}
+.homepage-valeurs-col{
+    padding: 3vh 3vh;
+}
+.homepage-valeurs{
+    width: 100%;
+    height: 84vh;
+    padding: 3vh 3vh;
+    border: 1px solid #606470;
+}
+.homepage-valeurs h6, .true-valeurs{
+    color: #fec401;
+}
+.homepage-team-title, .homepage-dreamstudio-title, .homepage-cta-reflexion{
+    font-size: 55px;
+    color: #087CEE;
+}
+.homepage-team-member img{
+    width: 50%;
+}
+.homepage-team-member h6{
+    color: #087CEE;
+}
+#cta-arrow{
+    margin-left: 40%;
+}
+.homepage-cta{
+    padding: 8vh 0 8vh 0;
+}
+
+    /* HOMEPAGE-DREAMSTUIO */
+
+    .grid-item {
+        color: #fff;
+        padding: 3.5em 1em;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .main {
+        color: #959595;
+        background-color: none;
+        grid-area: main;
+        padding: 0;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .items {
+        position: relative;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .items.active {
+        background: rgba(255, 255, 255, 0.3);
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+    }
+
+    .item {
+        display: inline-block;
+        /* background: skyblue; */
+        color: #FFF;
+        min-height: 450px;
+        min-width: 990px;
+        margin: 2em 1em;
+        padding: 2vh 0 0 3vh;
+    }
+
+    .item:hover{
+        color: #fec401;
+    }
+
+    
+.none_page{
+
+    display: none !important;
+  
+}
+
+/* #########################################################################"DreamStudio */
+#dreamstudio-header-cta{
+
+    background-image: linear-gradient(85deg,#087CEE,#fec401);
+    height: 100vh;
+
+}
+#DreamStudio-title{
+ 
+    font-size: 65px;
+    color: #fFF;
+    margin-top: 45vh;
+    
+}
+#dreamstudio-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+#dreamstudio-case{
+    flex: 50%;
+    padding: 0 2vh 3vh 2vh;
+    margin-top: 2vh;
+    /* border: 1px solid #087CEE; */
+
+}
+#dreamstudio-case a{
+    color: #313131 !important;
+}
+#dreamstudio-case a:hover #dreamstudio-case-title{
+
+    color: #087CEE !important;
+
+}
+#dreamstudio-case a:hover #case-category{
+
+    color: #fec401;
+
+}
+#dreamstudio-case a img{
+    margin-top: 8px;
+    vertical-align: middle;
+    /* width: 100%; */
+}
+
+/* ####################################################################### Creation */
+
+#creation-head{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay;
+}
+.button_container_2 {
+    display: inline-block;
+    position: relative;
+    width: 22.5px;
+    height: 22.5px;
+    margin-right: 18px;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+}  
+.button_container_2:hover {
+    opacity: 1;
+}
+.button_container_2 span.top{
+    visibility: hidden;
+    opacity: 0;
+}  
+.button_container_2.active .top {
+    -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
+    -ms-transform: translateY(11px) translateX(0) rotate(45deg);
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #FFF;
+    opacity: 1;
+    visibility: visible;
+}  
+.button_container_2.active .middle {
+    opacity: 0;
+    background: #087CEE;
+} 
+.button_container_2.active .bottom {
+    -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
+    -ms-transform: translateY(-11px) translateX(0) rotate(-45deg);
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #FFF;
+}  
+.button_container_2 span {
+    background: #FFF;
+    border: none;
+    height: 1.5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    cursor: pointer;
+}  
+.button_container_2 span:nth-of-type(2) {
+    top: 11px;
+}  
+.button_container_2 span:nth-of-type(3) {
+    top: 22px;
+}
+.creation-titre{
+    color: #FFF;
+    line-height: 70vh !important;
+    font-size: 80px;
+}
+
+#creation-tag{
+    color: #fec401;
+}
+#creation-soustag{
+    font-family: 'Gilroy_Light';
+    color: #087CEE;
+
+}
+#back_w{
+    color: white !important;
+    margin-right: 15px !important;
+}
+.crea_img{
+    width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover;
+    object-position: center;
+}
+.crea_cover_img{
+    width: 100% !important;
+    height: 60vh !important;
+    object-fit: cover;
+    object-position: center bottom;
+}
+#crea_body{
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    position: relative;
+}
+#crea_bottom{
+
+    background-color: #087CEE;
+
+}
+#crea_bottom a {
+    color: #fff;
+}
+/* ####################################################################### Contact */
+#contact-header-cta{
+    background-color: #087CEE;
+    height: 100vh;
+}
+#contact-cta-title{
+    color: #fff;
+    font-size: 65px;
+    margin-top: 25vh;
+}
+#contact-header-cta a{
+    color: #FFF;
+    font-size: 50px;
+}
+#contact-header-cta a:hover{
+    color: #fec401;
+}
+.contact-input{
+    width: 100%;
+    padding-left: 3vh;
+    height: 10vh;
+    border: none;
+    border-bottom: 1px solid #959595;
+    font-family: 'Gilroy_Light' !important;
+
+}
+.contact-textarea{
+    padding-left: 3vh;
+    padding-top: 3vh;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #959595;
+    font-family: 'Gilroy_Light' !important;
+
+}
+.contact-input::placeholder, .contact-textarea::placeholder{
+
+    font-family: 'Gilroy_Light' !important;
+    font-size: 26px;
+
+}
+.contact-input:focus-visible, .contact-textarea:focus-visible{
+    border: none !important;
+    border-bottom: 1px solid #087CEE !important;
+    outline: none !important;
+}
+.contact-btn{
+    font-family: 'Gilroy_Light' !important;
+    border: none;
+    padding: 3vh;
+    
+}
+#contact-submit{
+    background-color: #087CEE;
+    color: #fff;
+}
+/* ##############################################################################BLOG */
+#blog_cover{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+#blog_tag{
+    padding: 3vh;
+    background-color: #fec401;
+    color: #fff;
+}
+#blog_titre{
+    color: #1f041a;
+}
+#blog_card:hover #blog_titre{
+    color: #087CEE;
+}
+
+#article_titre{
+    color: #087CEE;
+}
+.article-mtop{
+    margin-top: 14vh !important;
+}
+#blog_article_contenu{
+    font-family: 'Gilroy_Light' !important;
+}
+/* ####################################################################newsletters */
+#newsletter_msg{
+    color: #087CEE;
+    font-family: 'Gilroy_Light';
+    margin-top: 11vh;
+}
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px 'Gilroy_Light'; 
+    margin-top: 11vh;
+
+}
+/* 
+########################################################################################
+Responsive
+########################################################################################
+*/
+
+@media only screen and (max-width: 575px){
+
+    .responsive-none{
+        display: none !important;
+    }
+    .responsive-show{
+        display: block !important;
+    }
+    .responsive-textcenter{
+        text-align: center;
+    }
+    .responsive-padding{
+        padding: 4vh;
+    }
+    
+
+    /* Homepage#################################" */
+    #homepage-header-cta h1{
+        font-size: 50px;
+        color: #087CEE;
+        margin-top: 16vh;
+    }
+
+    #homepage-nos-services-mobile{
+        color: #087CEE;
+    }
+
+    .homepage-services-card{
+        margin-top: 2vh;
+    }
+
+    .homepage-valeurs-heart{
+        text-align: center;
+    }
+    .responsive-team-grid{
+        grid-template-columns: 1fr;
+        grid-row-gap: 0px;
+        grid-template-rows: auto auto auto auto auto;
+        display: grid !important;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 16px;
+    }
+    .item{
+        min-width: 100%;
+        min-height: 250px;
+    }
+    .genie_phone{
+        font-size: 13px;
+        white-space: pre-line;
+    }
+    .homepage-cta-reflexion{
+        text-align: center;
+        font-size: 35px;
+    }
+    footer{
+        height: 155vh;
+        text-align: center
+    }
+    #footer-contact, #liensPrincipales, #liensUtiles{
+        margin-bottom: 5vh;
+    }
+    #cta-arrow{
+        margin-left: 25%;
+    }
+    /* ########################################"Dreamstudio */
+    #DreamStudio-title{
+        font-size: 45px;
+        margin-top: 25vh;
+    }
+    #dreamstudio-header-cta{
+
+        background-image: linear-gradient(45deg,#087CEE,#fec401);
+    
+    }
+    .creation-titre{
+        font-size: 50px;
+    }
+    
+
+    /* ############################################Contact */
+    #contact-cta-title{
+        font-size: 35px;
+    }
+    #contact-header-cta a{
+        font-size: 15px;
+    }
+    /* #############################################blog-artcile */
+    .article-mtop{
+        margin-top: 4vh !important;
+    }
+}

@@ -1,0 +1,98 @@
+
+#branding_away{
+	background-image: url('../img/illustrations/Branding.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+#design_away{
+	background-image: url('../img/illustrations/Design.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#marketing_away{
+	background-image: url('../img/illustrations/Marketing.jpg');
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#web_away{
+	background-image: url('../img/illustrations/Web.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#project_away{
+	background-image: url('../img/illustrations/Project.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#closeBtn{
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #087CEE; /* Set a background color */
+	color: white !important; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 10px;
+	font-size: 20PX; /* Increase font size */
+}
+/*  */
+#row_adventure{
+	border: 1px solid #6e6e6e;
+	border-radius: 5px;
+	padding: 6px;
+}
+#row_adventure span{
+	color: #979797;
+	font-size: 12px;
+}
+#row_adventure a{
+	font-size: 1rem;
+}
+
+/*----------------------Formulaire---------------*/
+#form_p{
+	font-family: 'Gilroy_Extrabold' !important;
+	line-height: 8vh;
+}
+.inpoot{
+	border: none !important;
+	border-radius: 0% !important;
+	border-bottom: 1px solid #087CEE !important;
+	color: #087CEE !important;
+	background-color: transparent !important;
+	height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+	width: 45%;
+	font-family: 'Gilroy_Extrabold' !important;
+}
+.inpoot:focus{
+	box-shadow: none !important;
+	border: 1px solid #087CEE !important;
+	outline: 0;
+}
+.inpoot::placeholder{
+	font-family: 'Gilroy_Extrabold' !important;
+}
+#submit{
+	border-radius: 0%;
+	border: 1px solid #087CEE;
+	background-color: #087CEE;
+	color: #FFF;
+	font-family: 'Gilroy_Extrabold' !important;
+	font-size: 20px;
+}
+#form-project{
+	height: 80vh;
+}
+a{
+	font-family: 'Gilroy_Extrabold' !important;
+	letter-spacing: normal !important;
+	text-transform: none !important;
+}

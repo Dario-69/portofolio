@@ -1,0 +1,57 @@
+#service_titre{
+    line-height: 20vh;
+}
+.bordr{
+    height: 2px;
+    width: 90px;
+    background-color: #087CEE;
+}
+#WWD{
+    font-size: 130px;
+    margin-top: 20vh;
+    font-family: 'Gilroy_Extrabold' !important;
+}
+.mini_span{
+    font-size: 17px;
+    color: #575757;
+    letter-spacing: .03em;
+}
+body.dark .mini_span{
+    color: white;
+}
+.service_s{
+    color: #087CEE;
+}
+body.dark .service_s{
+    color: #FFD600;
+}
+/* .li_services{
+    font-family: 'Gilroy_Extrabold' !important;
+} */
+.services_img{
+    width: 5%;
+}
+.li_services:before{
+    margin-right: .2rem;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #087CEE;
+}
+/* ._branding:before{
+    content: "🎨";
+}
+._design:before{
+    content: "📱";
+}
+._web:before{
+    content: "💻";
+}
+._marketing:before{
+    content: "📢";
+} */
+.minimalist{
+    margin-top: 18vh;
+    margin-bottom: 18vh;
+}
+/**/

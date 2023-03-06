@@ -1,0 +1,163 @@
+
+/*header*/
+#head{
+    padding-top: 2%;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #087CEE;
+  }
+  .typed{
+    color: #ffd600;
+    font-family: 'Gilroy_Extrabold' !important;
+  }
+  .decouvrir{
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 45px;
+    font-size: 12px;
+  }
+  .decouvrir:hover{
+    background-color: white !important;
+    color: #087CEE !important;
+  }
+  body.dark .decouvrir{
+    color: #087CEE !important;
+    border: 1px solid #087CEE;
+  }
+  body.dark .decouvrir:hover{
+    background-color: #087CEE !important;
+    color: #FFF !important;
+  }
+  .nom_first{
+      font-family: 'Montserrat_Light';
+  }
+  .pub_first{
+      font-family: 'Gilroy_Extrabold';
+      font-size: 80px;
+      color: #FFF;
+      margin-top: 5%;
+      margin-left: 1%;
+  }
+
+/*header fin*/
+
+/*Services*/
+
+#srvc_pg{
+  height: 100%;
+  width: 100%;
+  min-height: 680px;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.service_titre{
+    font-family: 'Gilroy_Extrabold';
+    color: #087CEE;
+}
+.service_titre span{
+    font-family: Montserrat_Light;
+    color: black;
+}
+.droite_text{
+  text-align: right;
+}
+/*Services fin*/
+
+/*projects*/
+
+.grid-item {
+    color: #fff;
+    padding: 3.5em 1em;
+    font-size: 1em;
+    font-weight: 700;
+}
+.main {
+    color: #959595;
+    background-color: none;
+    grid-area: main;
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.items {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+}
+
+.items.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.item {
+    display: inline-block;
+    background: skyblue;
+    min-height: 500px;
+    min-width: 990px;
+    margin: 2em 1em;
+}
+#prjt_pg h3, #prjt_pg h4 {
+  font-family: 'Montserrat_SemiBold';
+}
+.brdr{
+  height: 2px;
+  width: 90px;
+  background-color: #087CEE;
+  margin-top: 5%;
+  margin-left: 10px;
+}
+#prjt_pg{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+/*projects fin*/
+/*Advantages*/
+.btn-adv{
+  margin-top: 0.2rem;
+}
+/*  */
+#branding-background{
+  height: 380px;
+  background-image: url('../img/illustrations/Branding.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#design-background{
+  height: 380px;
+  background-image: url('../img/illustrations/Design.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#marketing-background{
+  height: 380px;
+  background-image: url('../img/illustrations/Marketing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#web-background{
+  height: 380px;
+  background-image: url('../img/illustrations/Web.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

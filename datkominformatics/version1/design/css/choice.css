@@ -1,0 +1,62 @@
+/*Dark Mode ALL*/
+body.dark #head{
+    background-color: #fff;
+    transition: all 400ms ease;
+    color: #087CEE;
+}
+  
+/*Dark & Light Mode Main*/
+body.dark .pub_first, body.dark .decouvrir {
+    color: #087CEE;
+    transition: all 400ms ease;
+}
+body.dark .service_titre{
+    color: #ffd600;
+    transition: all 400ms ease;
+}
+body.dark .service_titre span{
+    color: #fff;
+    transition: all 400ms ease;
+}
+body.dark .Prec-btn, body.dark .Suiv-btn{
+    color: #fff;
+}
+/* End Dark & Light Mode Main*/
+
+/*Dark & Light Mode Agency*/
+body.dark .projet{
+    color: #087CEE !important;
+  }
+  body.dark .projet:hover{
+    color: #087CEE !important;
+  }
+  body.dark .subtitle{
+    color: #FFD600;
+  }
+/* End Dark & Light Mode Agency*/
+
+/*Dark & Light Mode Contact*/
+body.dark .ticker-wrap .ticker__item{
+    color: #087CEE;
+}
+/*End Dark & Light Mode Contact*/
+
+/*Dark & Light Mode Blog*/
+body.dark #head-blog{
+    background-color: #fff;
+    color: #087CEE;
+}
+body.dark .titre_blog:hover{
+    color: #ffd600;
+}
+body.dark .toopiic{
+    background: #087CEE;
+
+}
+body.dark .time_blog:before{
+    content: "•";
+    color: #ffd600;
+}
+body.dark .type_blog, body.dark .prefix_blog{
+    color: #fff;
+}
