@@ -1,0 +1,47 @@
+@media screen and (max-width:512px){
+    .overlay ul li{
+        font-size: 20px;
+    }
+
+    .button_container span:nth-of-type(2) {
+        top: 6px;
+    }
+      
+    .button_container span:nth-of-type(3) {
+        top: 12px;
+    }
+
+    .button_container{
+        margin-top: 8px;
+    }
+
+    /**/
+    .text-first{
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    /**/
+    .notre_entre{
+        margin-top: 70px;
+    }
+    .personnel{
+        padding: 5%;
+    }
+    .retrouvez{
+        font-size: 25px;
+    }
+    /**/
+    .nos-services{
+        font-size: 35px;
+        margin-top: 100px !important;
+    }
+    .services{
+        height: 100%;
+        margin-top: 5%;
+    }
+    /**/
+    .contact{
+        font-size: 30px;
+        margin-top: 100px !important;
+    }
+}

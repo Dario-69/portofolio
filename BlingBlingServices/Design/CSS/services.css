@@ -1,0 +1,33 @@
+#section_01{
+    margin-top: 10%;
+}
+.services{
+    height: 350px;
+}
+#service1{
+    margin-top: 7%;
+    background-color: #dc64be;
+}
+#service2{
+    background-color: #b5b5b3;
+}
+#service3{
+    background-color: #eec97e;
+}
+.serv_titre{
+    padding-top: 15%;
+}
+.cta_btnn_1{
+    border: 1px solid #44558f;
+    color: #44558f;
+    background-color: white;
+  
+}
+.cta_btnn_1:hover{
+    border: 1px solid white;
+    background-color: #44558f;
+    color: #fff;
+    transition: all 1s ease-out;
+    text-decoration: none;
+  
+}
