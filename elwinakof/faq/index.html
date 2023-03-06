@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Contact - Elwinakof</title>
+
+    <style>
+
+        .faq1, .faq2{
+            height: 80vh;
+            padding-top: 40vh;
+        }
+        .faq1{
+            background-color: #EB611B;
+        }
+        .faq2{
+            background-color: #24356C;
+            color: #fff;
+        }
+        @media screen and (max-width: 512px){
+            .faq1, .faq2{
+            height: 80vh;
+            padding-top: 20vh;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div id="myNav" class="overlay">
+
+            <div class="container">
+
+                <div class="row mt-5">
+
+                    <div class="col-md-4 col-5">
+
+                        <a href="../index.php"><h1 id="logo_2">ELWINAKOF</h1></a>
+
+                    </div>
+
+                    <div class="col-md-8 col-7 text-right">
+
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">fermer &times;</a>
+
+                    </div>
+
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-md-6" id="MyNavA">
+
+                        <a href="../les-proprietes/index.php">Les propriétés</a>
+
+                        <a href="../nos-services/index.php">Nos services</a>
+
+                        <a href="../a-propos-de-nous/index.php">à propos de nous</a>
+
+                        <a href="../contact/index.php">Contact</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+
+    <div class="container-fluid" id="navbar">
+
+        <div class="row mt-2 mb-2">
+
+            <div class="col-md-4 col-3">
+
+                <a href="../index.php"><h1 id="logo">ELWINAKOF</h1></a>
+
+            </div>
+
+            <div class="col-md-6 col-6"></div>
+
+            <div class="col-md-2 col-3" id="header_actions">
+
+                <a href="../les-proprietes/index.php" id="lesproprietes">Les propriétés</a>
+
+                <div class="button_container" onclick="openNav()">
+
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="content">
+
+        <div class="container-fluid"  id="whoare">
+
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+
+                    <h1 id="who">Foire aux questions</h1>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid faq1" id="louer">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2>Je cherche à louer une maison</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae tempora odit veniam, expedita at fugit adipisci nam id! Neque sequi eaque aspernatur amet saepe voluptatibus dicta, ab placeat enim!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid faq2" id="achat">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2>Je cherche à acheter une maison</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro beatae, quaerat et molestiae nostrum sapiente quas nobis omnis enim deserunt quos possimus illum autem saepe iste facilis vero atque deleniti.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid faq1" id="acquisition">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2>Je souhaite m'associer à ELWINAKOF pour une acquisition immobilière</h2>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis voluptatibus, porro suscipit corporis sapiente atque iusto aspernatur, aut nemo, mollitia quod commodi dolore dolorem ea in reiciendis? Fugiat, necessitatibus nam.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid faq2" id="vente">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2>J'ai une maison à vendre / à louer</h2>
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam sit explicabo molestiae aliquam tempora animi, id nemo autem vel tempore ducimus expedita. Explicabo, distinctio eaque minus commodi qui sequi quos.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid faq1" id="carreer">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2>Je suis intéressé par les opportunités de carrière</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos laboriosam quis sapiente harum officia incidunt suscipit ab necessitatibus exercitationem? Voluptates adipisci cumque, odio incidunt unde earum corrupti cupiditate vero tempore?</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid faq2" id="invest">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2>Je veux investir avec ELWINAKOF</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto perspiciatis ullam, repudiandae accusamus repellendus reprehenderit sunt. Consectetur, dolore earum. Quos ipsum distinctio amet dolor nobis harum ratione eum totam.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <h3>Elwinakof</h3>
+
+                </div>
+
+                <div class="col-md-3"></div>
+
+                <div class="col-md-3 text-right">
+
+                    <h3>Compagnie</h3>
+
+                    <a href="../nos-services/index.php">Nos services</a> <br>
+
+                    <a href="../contact/index.php">Nous Contactez</a> <br>
+
+                    <a href="../a-propos-de-nous/index.php">À propos de nous</a>
+
+                </div>
+
+                <div class="col-md-3 text-right">
+
+                    <h3>Nos liens</h3>
+
+                    <a href="../faq/index.html">FAQ</a> <br>
+
+                    <a href="../politique/index.html">Politique</a> <br>
+
+                    <a href="../condition/index.html">Condition</a> 
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script>
+
+        /* Open */
+        function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+        }
+
+        /* Close */
+        function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

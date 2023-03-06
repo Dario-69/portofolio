@@ -1,0 +1,114 @@
+@media screen and (max-width:512px){
+#lesproprietes{
+    display: none;
+}
+#incompetente{
+    margin-top: 3rem !important;
+}
+.nos-services{
+    border-right: none;
+}
+    #welcom{
+        margin-top: 35vh !important;
+        font-size: 40px;
+        margin-bottom: 5vh;
+    }
+
+    .btnt{
+        border: 1px solid #24356C;
+        padding: 10px;
+    }
+    .startbtn1{
+        background-color: #24356C;
+        color: white !important;
+    }
+    .startbtn1:hover{
+        background-color: white;
+        color: #24356C !important;
+        border: 1px solid white;
+        transition: all 0.5s ease-in;
+    }
+    .startbtn2{
+        color: #24356C !important;
+    }
+    .startbtn2:hover{
+        color: white !important;
+        background-color: #24356C;
+        transition: all 0.5s ease-in;
+    }
+#first h2{
+    margin-top: 5vh;
+}
+#today a{
+    font-size: 12px !important;
+}
+.startbtnS{
+    color: #24356C !important;
+    margin-top: 5vh!important;
+}
+.startbtnS:hover{
+    color: white !important;
+    background-color: #24356C;
+    transition: all 0.5s ease-in;
+}
+
+.startbtn3{
+    color: #24356C !important;
+    margin-top: 15%;
+}
+
+.startbtn4{
+    color: #FFF !important;
+    border-color: #fff !important;
+}
+.startbtn5{
+    color: #FFF !important;
+    border-color: #fff !important;
+}
+.cequenousfaisons .service_content_desc{
+    height: 100% !important;
+    transition: height 5s !important;
+
+}
+#services_1{
+
+    height: 90vh;
+    padding-top: 5%;
+    margin-top: 9%
+}
+
+#services_2{
+
+    height: 90vh;
+    padding-top: 5%;
+    background-color: black;
+    color: white;
+}
+#services_3{
+
+    height: 70vh;
+    padding-top: 5%;
+}
+#services_4{
+
+    background-color: #EB611B;
+    height: 90vh;
+    padding-top: 5%;
+}
+
+#CQNFS{
+    margin-top: 3rem;
+}      
+
+#text_cqnfs{
+    margin-top: 2rem;
+} 
+  
+  }
+
+#CQNFS{
+    margin-top: 3rem;
+}
+    
+  
+  

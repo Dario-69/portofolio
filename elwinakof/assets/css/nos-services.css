@@ -1,0 +1,9 @@
+.splide__slide{
+    background-color: #EB611B;
+    border: none !important;
+    text-align: center;
+    color: white;
+}
+.splide__slide h1{
+    padding-top: 15vh;
+}
